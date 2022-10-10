@@ -1,0 +1,100 @@
+body{
+  height: 100%;
+  background-image: url("cv.jpg") ;
+  font-family: 'Yuji Syuku', serif;
+  line-height: 1.6;
+  display: flex;
+  margin:auto;
+
+}
+.section-gauche{
+  margin-left: 25%;
+  position: absolute;
+  left:-10%;
+  border-right: thistle solid 2px ;
+  width: 200px;
+  top: 60%;
+  padding-left: 2%;
+  font-family: 'Yuji Syuku', serif;
+  display: inline-block;
+}
+
+.section-droite{
+  position: absolute;
+  left: 40%;
+  top:50%;
+  padding-right: 2%;
+
+}
+.titre2{
+  position: absolute;
+  left: 45%;
+  border-bottom: solid turquoise 10px;
+
+}
+
+.mes-info{
+  width: 250px;
+  border-radius: 15px;
+  background-color: turquoise;
+  padding: 5px;
+  position: absolute;
+  top: 5%;
+  padding-left: 2%;
+  left: 10%;
+  border-width : medium ;
+  border-style:  solid; margin : 10px 0; padding :10px ;
+  border-color: white;
+}
+
+.presentation{
+  left: 40%;
+  position: absolute;
+  top: 22%;
+  text-align: justify;
+  padding-right: 2%;
+
+}
+h4{
+  color: turquoise;
+}
+h3{
+  color: gray;
+}
+
+.formation{
+  position: absolute;
+  top:175%;
+  left:40%;
+  padding-right: 2%;
+  display: inline-block;
+
+}
+
+#slim{
+  font-weight: bold;
+}
+
+
+
+
+.date3{
+  font-weight: bold;
+  line-height: 2;
+
+}
+
+#list1 li, #list2 li, #list3 li  {
+
+  list-style-image: url('puce3.png') ;
+
+}
+
+
+#soft li, #hard li, #sport li, #outils li, #langues li, #asso li{
+  list-style-image: url('puce2.jpg')
+}
+
+.formation li{
+  list-style-type: none;
+}

@@ -1,0 +1,90 @@
+.image img {
+  width: 150px;
+  height: 100px;
+  margin-top: -80px;
+}
+
+.table-container {
+  display: block;
+  width: 100%;
+  column-count: 2;
+
+}
+
+
+.image {
+  margin-top: 15%;
+
+}
+section{
+  display: flex;
+  justify-content: center;
+}
+.gauche {
+  border: 0.5rem solid;
+  border-color: #2D589E;
+  padding-left: 10px;
+  width: 600px;
+  display: block;
+  width: 50%;
+  margin-left: 30%;
+
+
+}
+
+progress {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.droite {
+  width: 600px;
+margin-top: 15%;
+  display: block;
+  width: 60%;
+margin-right: 50%;
+  margin-bottom: 15%;
+
+}
+
+.droite h1 {
+  background-color: #D1DAE1;
+  color: #1D428C;
+}
+
+a {
+
+  color: #1D428C;
+  background-color: #D1DAE1;
+  border-radius: 5px;
+}
+
+.nom p {
+  color: #29697C;
+  text-align: center;
+}
+
+.nom hr {
+  width: 300px;
+}
+
+.gauche h2 {
+  background-color: #D1DAE1;
+  padding-right: 2%;
+  color: #2D509A;
+  width: 50%;
+}
+
+.contact h2 {
+  margin-top: 5px;
+}
+
+.contact-flex p {
+  margin-top: 10px;
+}
+
+.nom h1 {
+  text-align: center;
+  color: #1D428C;
+  font-family: "Microsoft Sans Serif-Bold-8612";
+}
